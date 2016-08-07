@@ -1,0 +1,49 @@
+$font-family: Courier New, sans-serif;
+
+body {
+  background-color: #e0e0e0;
+  font-family: $font-family;
+  text-align: center;
+}
+
+.pwgen {
+  width: 320px;
+  margin: 0 auto;
+  &__result {
+    width: 300px;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 24px;
+    font-family: $font-family;
+    text-align: center;
+  }
+  &__btn {
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #00aaff;
+    box-shadow: 0 4px 0 #0088cc;
+    cursor: pointer;
+    &:hover {
+      opacity: .8;
+    }
+  }
+  &__fieldset {
+    margin-top: 40px;
+    border: 1px dashed #aaa;
+    border-radius: 5px;
+    text-align: left;
+  }
+  &__legend {
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  &__fieldRow {
+    text-align: center;
+  }
+  &__checkbox {
+    &:first-child {
+      margin-right: 30px;
+    }
+  }
+}
